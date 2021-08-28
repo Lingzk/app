@@ -29,7 +29,7 @@ let getDateDiff = function(startDate, endDate) {
     var dates = Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24);
     return dates;
 }
-document.title += getDateDiff((new Date()).getFullYear() + '-' + ((new Date()).getMonth() + 1) + '-' + (new Date()).getDate(), '2021-03-27') + 1 + '天';
+
 export default {
     name: 'app',
     components: {
@@ -55,8 +55,8 @@ export default {
 
 /* 首先给所有元素加上过渡效果 */
 * {
-  -webkit-transition: all .1s;
-  transition: all .1s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 /* 白色背景太单调了。来点背景 */
 html {
@@ -186,7 +186,7 @@ html{
 * Jolie.House
 * 星洲小馆
 * 蟹榭
-* 西班牙菜
+* 偶遇的西班牙菜
 * ali
 * 凑凑
 * 水丰锅贴
