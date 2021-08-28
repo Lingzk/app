@@ -38,7 +38,7 @@ export default {
     },
     data() {
         return {
-            interval: 27,
+            interval: 37,
             currentStyle: '',
             enableHtml: false,
             fullStyle: [
@@ -131,7 +131,7 @@ html{
   display: inline-block;
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
-  font-size:18px;
+  font-size:22px;
 }
 .resumeEditor ul,.resumeEditor ol{
   list-style: none;
@@ -149,6 +149,7 @@ html{
   margin-right: .5em;
 }
 .resumeEditor blockquote {
+  text-align: center;
   margin: 1em;
   padding: .5em;
   background: rgba(221,221,221,.5);
